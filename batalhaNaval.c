@@ -23,7 +23,17 @@ int main() {
     for (char letra = 'A'; letra <= 'J'; letra++) {
         printf("%c ", letra);
     }
-   
+     printf("\n");
+
+     
+// Imprimir o tabuleiro com números das linhas
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", i);
+        for (int j = 0; j < 10; j++) {
+            printf("%d ", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
