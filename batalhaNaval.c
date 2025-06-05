@@ -12,5 +12,10 @@ int main() {
     tabuleiro[2][2] = 3;
     tabuleiro[3][3] = 3;
 
+   //navio na diagonal 2
+    tabuleiro[0][9] = 3;
+    tabuleiro[1][8] = 3;
+    tabuleiro[2][7] = 3;
+    tabuleiro[3][6] = 3;
     return 0;
 }
