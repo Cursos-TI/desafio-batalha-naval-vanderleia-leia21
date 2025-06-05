@@ -17,5 +17,13 @@ int main() {
     tabuleiro[1][8] = 3;
     tabuleiro[2][7] = 3;
     tabuleiro[3][6] = 3;
+
+ // Impressão do cabeçalho com letras
+    printf("  ");
+    for (char letra = 'A'; letra <= 'J'; letra++) {
+        printf("%c ", letra);
+    }
+   
+
     return 0;
 }
